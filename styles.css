@@ -44,8 +44,11 @@ a, a:visited, a:hover, a:active {
 }
 
 .main-image {
-    height: 100%;
-    width: auto;
+    border-radius: 50%;
+    background-size: cover;
+    height: 60%;
+    align-self: center;
+
 }
 
 .main-layout {
@@ -53,12 +56,26 @@ a, a:visited, a:hover, a:active {
     flex-direction: row;
     justify-content: space-between;
     padding: 30px 30px;
+
+}
+
+.main-layout-mid {
+    margin: 0 100px;
+    height: auto;
+    flex: 1;
 }
 
 .main-layout-1 {
-    flex-basis:0;
+    flex: 1;
     display: flex;
     flex-direction: column;
+}
+
+.main-layout-3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .main-section {
@@ -76,7 +93,8 @@ a, a:visited, a:hover, a:active {
 }
 
 .main-section-value {
-    font-size: 40px
+    font-size: 40px;
+    float: right;
 }
 
 .language {
