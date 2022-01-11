@@ -2,7 +2,11 @@ body {
     font-family: 'Poppins';
     display: flex;
     flex-direction: column;
-    margin: 0px 70px;
+    margin: 0px 200px;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
 }
 
 .nav-bar {
@@ -39,6 +43,11 @@ body {
     margin: 10px 0px;
 }
 
+.main-image {
+    height: 100%;
+    width: auto;
+}
+
 .main-layout {
     display: flex;
     flex-direction: row;
@@ -71,5 +80,84 @@ body {
 }
 
 .language {
-    
+    padding: 45px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.language-header {
+    font-size: 30px;
+    align-self: center;
+    font-weight: bold;
+}
+
+.language-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.language-icon {
+    width: 125px;
+}
+
+hr {
+    width: 100%;
+}
+
+footer {
+    margin: 45px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: lighter;
+}
+
+.quote-main {
+    margin: 45px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.quote {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.quote-name {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education {
+    margin: 45px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.education-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-year {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.info-header {
+    font-size: 30px;
+}
+
+.info-value {
+    font-size: 20px;
+    color: gray;
 }
